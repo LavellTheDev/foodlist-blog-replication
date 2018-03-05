@@ -1,0 +1,59 @@
+header a{/*The Foodist */
+  color: red;
+  font-size: 50px;
+  font-weight:normal;
+}
+header h2{/*Food of NYC*/
+  color: black;
+  font-weight: normal;
+}
+body{/*Used this to change all font of the body into lato*/
+  font-family: 'lato',sans-serif;
+}
+nav a{ /*The Different Cities*/
+  color:rgba(192,192,192, 0.5);
+  font-size: 25px;
+  padding: 10px;
+}
+article{
+  width: 75%;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0,0,0,0.5);
+  font-weight: normal;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+img{/*Scaling for both images*/
+  width: 100%;
+}
+article h3{
+  color:rgba(192,192,192, 0.5);
+  font-weight: normal;
+  font-size: 35px;
+  }
+ article a{
+  color: black;
+  font-weight: normal;
+  font-size: 38px;
+}
+h4 > a{
+  color:red;
+  float: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+article p::first-letter{
+  font-size: 600%;
+  float: left;
+  color: rgba(192, 192, 192, 0.5);
+}
+a{
+  text-decoration: none;
+}
+footer{
+  color: rgba(192, 192, 192, 0.5);
+}
+footer nav a{
+  color: red;
+  padding:10px;
+}
